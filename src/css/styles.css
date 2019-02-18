@@ -9,6 +9,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 10px;
 }
 
 #destinos{
@@ -31,34 +32,104 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.container {
-  padding: 0;
+.container1 {
+  padding: 150px;
+  background: #d9d8d6;
 }
 
 .footer{
-  margin-top: auto;
+  align-self: flex-end;
+  background: #24272a;
+  color: white;
 }
 
-.navbar {
-  list-style-type: none;
-  padding: 0;
+
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+.nav{
+  background: #24272a;
   overflow: hidden;
-  background-color: white;
-  margin-top: 0px;
+}
+.nav .menu_main{
+  list-style: none;
 }
 
-li {
+.nav .menu_main>li{
+  padding: 1em;
+  width: 8%;
   float: left;
 }
 
-li a {
-  display: flex;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
+.nav .menu_main>li>a{
+  font-size: 12px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
   text-decoration: none;
 }
 
-.active {
-  background-color: #4CAF50;
+.nav .menu_main>li:hover, .nav .menu_main>li>.sub_menu>li>:hover{
+  background: #ee1c3a;
+  cursor: pointer;
+}
+
+.nav .menu_main>li>.sub_menu{
+  position: absolute;
+  background: #e4e3e1;
+  width: 16%;
+  list-style: none;
+  margin-top: 1em;
+  display: none;
+}
+
+.nav .menu_main>li:hover>.sub_menu{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.nav .menu_main>li>.sub_menu>li{
+  padding: 1em;
+}
+
+.nav .menu_main>li>.sub_menu>li>a{
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+#content {
+  width: 1200px;
+  margin: 0px auto;
+}
+
+#column-left {
+  background-color: #EBE9EA;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px 8px 8px 8px;
+  float: left;
+  position: fixed;
+  min-height: 225px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  overflow: hidden;
+  text-align: center;
+  width: 200px;
+}
+
+#central {
+  background-color: #EBE9EA;
+  border: 1px solid #D2D2D2;
+  border-radius: 8px 8px 8px 8px;
+  float: right;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 985px;
 }
