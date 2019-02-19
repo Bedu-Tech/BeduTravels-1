@@ -3,55 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Bedu Travels</title>
-    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
   <body>
-    <nav class="nav">
-      <ul class="menu_main">
-        <li><a href="#">Bedu Travels</a></li>
-
-        <li><a href="">Inicia sesión</a>
+    <nav class="menu_main">
+        <a href="#">Bedu Travels</a>
+        <li href="#">
+          <p>Inicia sesión</p>
           <ul class="sub_menu">
             <li>Usuario</li>
-            <input type="text">
+            <input class="user" type="text">
             <li>Contraseña</li>
-            <input type="text">
-            <button>Iniciar Sesión</button>
+            <input class="password" type="text">
+            <button class="login">Iniciar Sesión</button>
             <li><a href="#">Registrate</a></li>
           </ul>
         </li>
-      </ul>
     </nav>
 
       <div>
-        <div class="container1">
-          <div class="bienvenida">
+        <section class="container1">
+          <div class="jumbotron">
             <h2>Increibles tours alrededor del mundo</h2>
+            <h3>Encuentra grandes experiencias, viajes, y actividades a precios fantasticos alrededor del mundo</h3>
           </div>
               <div class="searchbar">
-                <input type="text" class="form-control">
-                <button class="btn btn-outline-secondary" type="button">Buscar</button>
+                <input  size="60" type="text" class="form-control" placeholder="¿A dónde vas?... "/>
+                <button class="btn btn-outline-secondary" type="button"><i class="fas fa-search"></i></button>
               </div>
-            </div>
+            </section>
           </div>
         </div>
       </div>
-    <h2 class="bienvenida">Destinos preferidos</h2>
+    <h2>Destinos preferidos</h2>
+    <h3>Mira nuestros destinos favoritos alrededor del mundo</h3>
       <div class="destinos">
         <div class="card">
-          <img src="./src/img/cdmx.jpeg">
+          <img src="./assets/img/cdmx.jpeg">
             <div class="container">
               <h4><b>México</b></h4>
             </div>
           </div>
         <div class="card">
-          <img src="./src/img/cdmx.jpeg">
+          <img src="./assets/img/guatemala.jpg">
             <div class="container">
-              <h4><b>El Salvador</b></h4>
+              <h4><b>Guatemala</b></h4>
             </div>
         </div>
         <div class="card">
-          <img src="./src/img/cdmx.jpeg">
+          <img src="./assets/img/colombia.jpg">
             <div class="container">
               <h4><b>Colombia</b></h4>
             </div>
@@ -60,11 +62,12 @@
 
 
 
-    <footer class="footer">
+    <footer>
             <div class="container">
               <h3>Bedu Travels</h3>
               <h4>hola@bedutravels.com</h4>
             </div>
+          </footer>
   </body>
 
 </html>
