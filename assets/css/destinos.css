@@ -121,6 +121,7 @@
   background-color:white;
   //padding:15px;
   margin: 15px;
+  grid-template-columns: 300px 200px 200px;
 }
     .card-content{
       display:flex;
@@ -128,7 +129,7 @@
       align-items:flex-start;
        flex: 1 1 auto;
        margin: 5px;
-}
+
 
       h3,p{
         max-width: calc(100% - 30px);
