@@ -3,43 +3,110 @@
   <head>
     <meta charset="utf-8">
     <title>Bedu Travels</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
     <link rel="stylesheet" href="./assets/css/destinos.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   </head>
   <body>
-    <nav class="nav">
-      <ul class="menu_main">
-        <li><a href="#">BeduTravels</a></li>
-
-        <li><a href="">Inicia sesión</a>
-          <ul class="sub_menu">
-            <li>Usuario</li>
-            <input type="text">
-            <li>Contraseña</li>
-            <input type="text">
-            <button>Iniciar Sesión</button>
-            <li><a href="#">Registrate</a></li>
-          </ul>
-        </li>
-      </ul>
+    <nav class="menu_main">
+        <a href="#">
+          <img id="bedu-logo" src="assets/img/bedu_logo.png" alt="">
+        </a>
+        <div>
+          <a href="">LogIn</a>
+          <a href="">SignIn</a>
+        </div>
     </nav>
 
-        <div class="container1">
-          <div class="jumbotron">
+        <section id="country-cover">
             <h2>Destino</h2>
             <h3>Descripción</h3>
-          </div>
-        </div>
-      </div>
+        </section>
 
-      <div id="content">
-        <aside id="column-left">Filtrar por:
-         <p> <input type="checkbox"> Precio</p>
-         <p> <input type="checkbox"> Duración</p>
-         <p> <input type="checkbox"> Fecha</p>
+      <section id="content">
+        <aside id="column-left">
+        <p class="margin-bottom-sm">Filtrar por:</p>
+        <input class="margin-bottom-sm" type="text" name="" value="">
+          <div class="margin-bottom-sm">
+            <p>Destinos</p>
+            <ul>
+              <li>
+                <input type="checkbox" id="fruit4" name="" value="">
+                <label for="fruit4">Antigua</label>
+              </li>
+              <li>
+                <input type="checkbox" id="fruit4" name="" value="">
+                <label for="fruit4">Guatemala City</label>
+              </li>
+              <li>
+                <input type="checkbox" id="fruit4" name="" value="">
+                <label for="fruit4">Panajachel</label>
+              </li>
+              <li>
+                <input type="checkbox" id="fruit4" name="" value="">
+                <label for="fruit4">Flores</label>
+              </li>
+              <li>
+                <input type="checkbox" id="fruit4" name="" value="">
+                <label for="fruit4">San Jorge La Laguna</label>
+              </li>
+            </ul>
+         </div>
+         <div class="margin-bottom-sm">
+           <p>Destinos</p>
+           <ul>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Antigua</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Guatemala City</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Panajachel</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Flores</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">San Jorge La Laguna</label>
+             </li>
+           </ul>
+           </ul>
+         </div>
+         <div class="margin-bottom-sm">
+           <p>Destinos</p>
+           <ul>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Antigua</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Guatemala City</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Panajachel</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">Flores</label>
+             </li>
+             <li>
+               <input type="checkbox" id="fruit4" name="" value="">
+               <label for="fruit4">San Jorge La Laguna</label>
+             </li>
+           </ul>
+         </div>
        </aside>
-        <main id="central">
-          <div class="card">
+
+       <main id="central">
+          <div class="tour-container">
             <div class="card-image">
               <a href="#" title="title here">
                 <img src="./assets/img/cdmx.jpeg" alt="alt here">
@@ -51,7 +118,7 @@
                 <button>Ver tour</button>
               </div>
             </div>
-            <div class="card">
+            <div class="tour-container">
               <div class="card-image">
                 <a href="#" title="title here">
                   <img src="./assets/img/cdmx.jpeg" alt="alt here">
@@ -60,11 +127,12 @@
               <div class="card-content">
                 <h3>Tour por Ciudad de México</h3>
                 <p>Descripción del tour</p>
-                  <button>Ver tour</button>
+                  <button class="button-tour">Ver tour</button>
                 </div>
               </div>
-          </div>
-        </main>
+            </main>
+
+          </section>
 
   </body>
 
