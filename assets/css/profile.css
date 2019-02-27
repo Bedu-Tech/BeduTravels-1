@@ -1,0 +1,18 @@
+.profile-container{
+  display: flex;
+  justify-content: center;
+}
+
+.profile-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.profile-info{
+  width: 80%;
+}
+
+.profile-img{
+
+}
