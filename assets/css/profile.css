@@ -1,6 +1,6 @@
-.profile-container{
+.profile-info{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .profile-inputs{
@@ -9,10 +9,24 @@
     width: 50%;
 }
 
-.profile-info{
+.profile-container{
+  height: 80vh;
+  width: 100%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container > div{
   width: 80%;
 }
 
 .profile-img{
+  display: flex;
+  flex-direction: column;
+}
 
+.profil_image > div{
+  border-radius: 50%;
 }

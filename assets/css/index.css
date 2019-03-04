@@ -9,7 +9,6 @@ footer{
   background: #24272a;
   color: white;
   margin-bottom: 0px;
-
 }
 
 nav{
@@ -95,6 +94,16 @@ footer{
   margin-bottom: 15px;
 }
 
+.padding-top-md{
+  padding-top: 30px;
+}
+
+.center-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .searchbar{
     background-color: #fff;
@@ -128,15 +137,15 @@ footer{
 
 .top-country-gridarea{
   display: grid;
-      grid-template-columns: 25vw 25vw 25vw;
-      grid-template-rows: auto auto auto;
-      justify-items: center;
+  grid-template-columns: 25vw 25vw 25vw;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
 }
 
 .top-country-container{
   width: 100%;
   display: flex;
-justify-content: center;
+  justify-content: center;
 }
 
 .top-country-gridarea > div{
