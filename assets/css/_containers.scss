@@ -1,0 +1,130 @@
+
+footer{
+  align-self: flex-end;
+  background: #24272a;
+  color: white;
+  margin-bottom: 0px;
+}
+
+nav{
+  background-color: #24272a;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  a{
+    color: #fff;
+    text-decoration: none;
+    padding-right: 20px;
+  }
+}
+
+
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+footer{
+  height: 200px;
+  width: 100%;
+  background-color: #24272a;
+  display: flex;
+    align-items: center;
+}
+
+
+#home-cover{
+  background-image: url("../img/img_cover_home.jpg");
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
+.searchbar{
+    background-color: #fff;
+    padding-left: 10px;
+    padding: 3px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+}
+
+.searchbar > input{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    border: none;
+    padding-left: 5px;
+}
+
+.searchbar > form > input{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+  border: none;
+  padding-left: 5px;
+}
+
+
+@mixin container($ancho, $alto, $color) {
+  width: $ancho;
+  height: $alto;
+  background-color: $color;
+  border-radius: 5%;
+  text-align: center;
+  margin: 5px;
+}
+
+.box_uno{
+  @include container(200px, 100px, #33D374)
+}
+.box_dos{
+  @include container(150px, 50px, #108EFF)
+}
+
+
+@mixin flex {
+    // write the css here
+    display: -webkit-flex;
+    display: flex;
+}
+
+.container-flex {
+    @include flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: blue;
+}
+
+%button{
+  height: 200px;
+  width: 400px;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.red-button{
+  @extend %button;
+  background-color: red;
+}
+
+.blue-button{
+  @extend %button;
+  background-color: blue;
+}

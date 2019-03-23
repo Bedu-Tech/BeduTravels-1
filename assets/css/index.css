@@ -4,56 +4,12 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-footer{
-  align-self: flex-end;
-  background: #24272a;
-  color: white;
-  margin-bottom: 0px;
-}
-
-nav{
-  background-color: #24272a;
-  height: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav > div > a{
-  color: #fff;
-  text-decoration: none;
-  padding-right: 20px;
-}
-
-textarea:focus, input:focus{
-    outline: none;
-}
-
-footer{
-  height: 200px;
-  width: 100%;
-  background-color: #24272a;
-  display: flex;
-    align-items: center;
-}
 
 #bedu-logo{
   margin-left: 20px;
   width: 50px;
 }
 
-#home-cover{
-  background-image: url("../img/img_cover_home.jpg");
-  height: 70vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  color: #fff;
-}
 
 .social-media-container{
   display: flex;
@@ -80,39 +36,6 @@ footer{
 
 .text-center{
   text-align: center;
-}
-
-.margin-top-lg{
-  margin-top: 50px;
-}
-
-.margin-top-md{
-  margin-top: 30px;
-}
-
-.margin-top-sm{
-  margin-top: 15px;
-}
-
-.margin-bottom-md{
-  margin-bottom: 30px;
-}
-
-.margin-bottom-lg{
-  margin-bottom: 50px;
-}
-
-.margin-bottom-sm{
-  margin-bottom: 15px;
-}
-
-
-.padding-top-md{
-  padding-top: 30px;
-}
-
-.padding-top-lg{
-  padding-top: 50px;
 }
 
 .center-center{
